@@ -1,0 +1,56 @@
+/* Navbar CSS */
+
+header {
+	background-color: #333;
+	padding: 10px 0;
+  }
+  
+  .navbar {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .navbar__list {
+	display: flex;
+	list-style: none;
+	padding: 0;
+  }
+  
+  .navbar__item {
+	margin: 0 10px;
+  }
+  
+  .navbar__link {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .navbar__link:hover {
+	background-color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+	.navbar {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  
+	.navbar__item {
+	  margin: 5px 0;
+	}
+  }
+ .heading-text {
+	text-align: center;
+display: flex;	
+justify-content: center;
+align-items: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: 30px;
+/* font-weight: bold; */
+ }
+
+
